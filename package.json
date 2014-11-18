@@ -1,0 +1,23 @@
+{
+  "name": "Fashion-Inside-MU",
+  "version": "1.0.1",
+  "description": "MU plugins for fashion-inside.by",
+  "main": "plugin/load.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/korobochkin/Fashion-Inside-MU.git"
+  },
+  "author": "Kolya Korobochkin <me@korobochkin.com>",
+  "license": "Private",
+  "bugs": {
+    "url": "https://github.com/korobochkin/Fashion-Inside-MU/issues"
+  },
+  "homepage": "https://github.com/korobochkin/Fashion-Inside-MU",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.7.0"
+  }
+}
