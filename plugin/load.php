@@ -8,6 +8,9 @@ require_once (WPMU_PLUGIN_DIR . '/fashion-inside/seo-by-yoast/plugin.php');
 // Yandex Share Social buttons
 require WPMU_PLUGIN_DIR . '/fashion-inside/yandex-share/plugin.php';
 
+// Filenames
+require WPMU_PLUGIN_DIR . '/fashion-inside/filenames/plugin.php';
+
 // Themes
 // Selena
 require WPMU_PLUGIN_DIR . '/fashion-inside/themes/selena/plugin.php';
