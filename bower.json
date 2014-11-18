@@ -1,0 +1,22 @@
+{
+  "name": "Fashion-Inside-MU",
+  "version": "1.0.1",
+  "homepage": "https://github.com/korobochkin/Fashion-Inside-MU",
+  "authors": [
+    "Kolya Korobochkin <me@korobochkin.com>"
+  ],
+  "description": "MU plugins for fashion-inside.by",
+  "main": "plugin/load.php",
+  "license": "Private",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "filenames-in-wordpress": "git@bitbucket.org:korobochkin/filenames-in-wordpress.git#v1.0.0"
+  }
+}
