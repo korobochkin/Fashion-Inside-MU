@@ -1,4 +1,7 @@
 <?php
+// Favicons
+require WPMU_PLUGIN_DIR . '/fashion-inside/wp-head/plugin.php';
+
 // Delete WP logo in admin bar
 require_once (WPMU_PLUGIN_DIR . '/fashion-inside/wordpress-logo/plugin.php');
 
