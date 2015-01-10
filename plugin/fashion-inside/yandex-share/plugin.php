@@ -14,7 +14,7 @@ function fashion_inside_add_social_buttons ($content) {
 	if (!is_preview ()) {
 		if (isset ($GLOBALS['yandex_share_plugin'])) {
 			$social_btns = $GLOBALS['yandex_share_plugin']->the_content ('');
-			$social_btns = '<div class="ya-share-container"><div class="ya-share-container-inner">' . $social_btns . '</div></div>';
+			$social_btns = '<div class="ya-share"><div class="ya-share-container-inner">' . $social_btns . '</div></div>';
 			return $social_btns . $content;
 		}
 	}
