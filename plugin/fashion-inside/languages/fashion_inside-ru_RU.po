@@ -1,0 +1,473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fashion Inside MU\n"
+"POT-Creation-Date: 2015-02-11 17:43+0300\n"
+"PO-Revision-Date: 2015-02-11 17:43+0300\n"
+"Last-Translator: Kolya Korobochkin <me@korobochkin.com>\n"
+"Language-Team: Kolya Korobochkin <me@korobochkin.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../jetpack/modules/related-posts.php:18
+#, php-format
+msgid "Category &bdquo;%s&ldquo;"
+msgstr "Рубрика &laquo;%s&raquo;"
+
+#: ../jetpack/modules/related-posts.php:26
+#, php-format
+msgid "Tag &bdquo;%s&ldquo;"
+msgstr "Тег &laquo;%s&raquo;"
+
+#: ../themes/selena/jetpack/related-posts.php:16
+msgid "Related posts"
+msgstr "Похожие посты"
+
+#~ msgid ""
+#~ "To activate your user, please click the following link:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "After you activate, you will receive *another email* with your login."
+#~ msgstr ""
+#~ "Для активации аккаунта, пожалуйста, перейдите по ссылке\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "После активации вы получите другое письмо с вашим логином."
+
+#~ msgid "[%1$s] Activate %2$s"
+#~ msgstr "[%1$s] Активировать %2$s"
+
+#~ msgctxt ""
+#~ "%1$s = Name of user who create comment\n"
+#~ "%2$s = Topic title in which user leave a comment"
+#~ msgid "%1$s wrote new comment in “%2$s”"
+#~ msgstr "%1$s написал(-а) сообщение в разговоре «%2$s»"
+
+#~ msgctxt ""
+#~ "%1$s = Reply author name\n"
+#~ "%2$s = Topic title\n"
+#~ "%3$s = Reply URL to this topic\n"
+#~ "%4$s = Manage subscribe settings link\n"
+#~ "%5$s = Admin email"
+#~ msgid ""
+#~ "%1$s wrote new comment in conversation “%2$s” %3$s.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "+\n"
+#~ "Notification settings → %4$s.\n"
+#~ "Send email at %5$s or respond on that letter if you have a questions."
+#~ msgstr ""
+#~ "%1$s написал(-а) новое сообщение в разговоре «%2$s» %3$s.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "+\n"
+#~ "Настройка уведомлений → %4$s.\n"
+#~ "Напишите на %5$s или ответьте на это письмо, если у вас есть вопросы."
+
+#~ msgctxt ""
+#~ "%1$s = Topic author name who create new new topic\n"
+#~ "%2$s = Topic title"
+#~ msgid "%1$s created new conversation “%2$s”"
+#~ msgstr "%1$s создал(-а) новое обсуждение «%2$s»"
+
+#~ msgctxt ""
+#~ "%1$s = Topic author name\n"
+#~ "%2$s = Created topic title\n"
+#~ "%3$s = Forum title in wich topic created\n"
+#~ "%4$s = Link to brand new topic\n"
+#~ "%5$s = URL to manage user subscribtions\n"
+#~ "%6$s = Admin email"
+#~ msgid ""
+#~ "%1$s created new conversation “%2$s” in the forum “%3$s” %4$s.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "+\n"
+#~ "Notification settings → %5$s.\n"
+#~ "Send email at %6$s or respond on that letter if you have a questions."
+#~ msgstr ""
+#~ "%1$s создал(-а) новое обсуждение «%2$s» в разделе «%3$s» %4$s.\n"
+#~ "\n"
+#~ "\n"
+#~ "\n"
+#~ "+\n"
+#~ "Настройка уведомлений → %5$s.\n"
+#~ "Напишите на %6$s или ответьте на это письмо, если у вас есть вопросы."
+
+#~ msgid "Home"
+#~ msgstr "Главная"
+
+#~ msgid "Selena Network: This user is not allowed to create taxonomies."
+#~ msgstr ""
+#~ "Selena Network: Этому пользователю не разрешено создавать таксономии."
+
+#~ msgid "Activation Key Required"
+#~ msgstr "Необходим ключ активации"
+
+#~ msgid "Activation Key"
+#~ msgstr "Ключ активации"
+
+#~ msgid "Activate"
+#~ msgstr "Активировать"
+
+#~ msgid "Your account is now active!"
+#~ msgstr "Ваш аккаунт активирован!"
+
+#~ msgid ""
+#~ "Your account has been activated. You may now <a href=\"%1$s\">log in</a> "
+#~ "to the site using your chosen username of &#8220;%2$s&#8221;. Please "
+#~ "check your email inbox at %3$s for your password and login instructions. "
+#~ "If you do not receive an email, please check your junk or spam folder. If "
+#~ "you still do not receive an email within an hour, you can <a href=\"%4$s"
+#~ "\">reset your password</a>."
+#~ msgstr ""
+#~ "Ваш аккаунт был активирован. Можно <a href=\"%1$s\">войти</a> на сайт, "
+#~ "используя выбранное имя пользователя «%2$s». Пожалуйста, проверьте свою "
+#~ "почту %3$s — мы отправили логин, пароль и инструкции на этот адрес. Если "
+#~ "вы не получили письмо, проверьте папку со спамом. Если в течении часа "
+#~ "письмо так и не прийдет, вы можете <a href=\"%4$s\">сбросить пароль</a>."
+
+#~ msgid ""
+#~ "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to "
+#~ "your site using your chosen username of &#8220;%3$s&#8221;. Please check "
+#~ "your email inbox at %4$s for your password and login instructions. If you "
+#~ "do not receive an email, please check your junk or spam folder. If you "
+#~ "still do not receive an email within an hour, you can <a href=\"%5$s"
+#~ "\">reset your password</a>."
+#~ msgstr ""
+#~ "Ваш сайт <a href=\"%1$s\">%2$s</a> активирован. Можно войти на сайт, "
+#~ "используя логин «%3$s». Пожалуйста, проверьте свою почту %4$s, чтобы "
+#~ "узнать свой логин и пароль. Если вы не получили письмо, проверьте папку "
+#~ "со спамом. Если в течении часа письмо так и не прийдет, вы можете <a href="
+#~ "\"%5$s\">сбросить пароль</a>."
+
+#~ msgid "An error occurred during the activation"
+#~ msgstr "Произошла ошибка во время активации"
+
+#~ msgid "Username:"
+#~ msgstr "Логин:"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid ""
+#~ "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
+#~ "href=\"%2$s\">Log in</a>"
+#~ msgstr ""
+#~ "Аккаунт активирован. <a href=\"%1$s\">Посмотреть свой сайт</a> или <a "
+#~ "href=\"%2$s\">Войти</a>"
+
+#~ msgid ""
+#~ "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to "
+#~ "the <a href=\"%2$s\">homepage</a>."
+#~ msgstr ""
+#~ "Аккаунт активирован. <a href=\"%1$s\">Войти</a> или вернуться обратно на "
+#~ "<a href=\"%2$s\">главную страницу</a>."
+
+#~ msgid "Site Name:"
+#~ msgstr "Название сайта"
+
+#~ msgid "Site Domain:"
+#~ msgstr "Домен сайта"
+
+#~ msgid ""
+#~ "Must be at least 4 characters, letters and numbers only. It cannot be "
+#~ "changed, so choose carefully!"
+#~ msgstr ""
+#~ "Должен содержать минимум 4 символа, разрешены только латинские буквы и "
+#~ "цифры. Этот параметр не может быть изменен в будущем, будьте внимательны!"
+
+#~ msgid "Site Title"
+#~ msgstr "Заголовок сайта"
+
+#~ msgid "Privacy"
+#~ msgstr "Приватность"
+
+#~ msgid "Allow search engines to index this site."
+#~ msgstr "Разрешить поисковым системам индексировать сайт."
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Username"
+#~ msgstr "Имя пользователя"
+
+#~ msgid "Must be at least 4 characters, letters and numbers only."
+#~ msgstr "Не менее 4 символов, только латинские буквы и цифры."
+
+#~ msgid "Email Address"
+#~ msgstr "Эл. почта"
+
+#~ msgid "We send your registration email to this address."
+#~ msgstr "Мы отправим письмо с логином и паролем на этот адрес."
+
+#~ msgid "Get <em>another</em> %s site in seconds"
+#~ msgstr "Получите еще один %s сайт за пару секунд"
+
+#~ msgid "There was a problem, please correct the form below and try again."
+#~ msgstr "Возникла проблема, исправьте данные ниже и попробуйте снова."
+
+#~ msgid ""
+#~ "Welcome back, %s. By filling out the form below, you can <strong>add "
+#~ "another site to your account</strong>. There is no limit to the number of "
+#~ "sites you can have, so create to your heart&#8217;s content, but write "
+#~ "responsibly!"
+#~ msgstr ""
+#~ "Добро пожаловать, %s. Заполнив форму ниже, вы можете <strong>добавить еще "
+#~ "один сайт к вашему аккаунту</strong>. Ограничения на количество сайтов "
+#~ "нет, создавайте их по велению сердца, но подходите к этому ответственно!"
+
+#~ msgid "Sites you are already a member of:"
+#~ msgstr "Сайты, членом которых вы уже являетесь:"
+
+#~ msgid "Create Site"
+#~ msgstr "Создать сайт"
+
+#~ msgid "The site %s is yours."
+#~ msgstr "%s теперь ваш сайт."
+
+#~ msgid ""
+#~ "<a href=\"http://%1$s\">http://%2$s</a> is your new site. <a href=\"%3$s"
+#~ "\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
+#~ msgstr ""
+#~ "<a href=\"http://%1$s\">http://%2$s</a> ваш новый сайт. <a href=\"%3$s"
+#~ "\">Войдите</a> как «%4$s», используя свой пароль."
+
+#~ msgid "Gimme a site!"
+#~ msgstr "Дайте мне сайт!"
+
+#~ msgid "Just a username, please."
+#~ msgstr "Только имя пользователя."
+
+#~ msgid "Next"
+#~ msgstr "Далее"
+
+#~ msgid "%s is your new username"
+#~ msgstr "%s ваше новое имя пользователя"
+
+#~ msgid ""
+#~ "But, before you can start using your new username, <strong>you must "
+#~ "activate it</strong>."
+#~ msgstr "Но, прежде чем начать, необходимо активировать его."
+
+#~ msgid "Check your inbox at <strong>%s</strong> and click the link given."
+#~ msgstr ""
+#~ "Проверьте ящик <strong>%s</strong> и перейдите по ссылке из письма, "
+#~ "которое мы отправили."
+
+#~ msgid ""
+#~ "If you do not activate your username within two days, you will have to "
+#~ "sign up again."
+#~ msgstr ""
+#~ "Если вы не активируете аккаунт в течении двух дней, прийдется "
+#~ "регистрироваться снова."
+
+#~ msgid "Signup"
+#~ msgstr "Зарегистрироваться"
+
+#~ msgid "Congratulations! Your new site, %s, is almost ready."
+#~ msgstr "Поздравляем! Ваш сайт %s почти готов."
+
+#~ msgid ""
+#~ "But, before you can start using your site, <strong>you must activate it</"
+#~ "strong>."
+#~ msgstr "Но прежде чем начать, необходимо активировать его."
+
+#~ msgid ""
+#~ "If you do not activate your site within two days, you will have to sign "
+#~ "up again."
+#~ msgstr ""
+#~ "Если вы не активируете сайт в течении двух дней, прийдется "
+#~ "регистрироваться снова."
+
+#~ msgid "Still waiting for your email?"
+#~ msgstr "Еще не получили письмо?"
+
+#~ msgid ""
+#~ "If you haven&#8217;t received your email yet, there are a number of "
+#~ "things you can do:"
+#~ msgstr ""
+#~ "Если вы еще не получили письмо, вот несколько вещей, которые можно "
+#~ "сделать:"
+
+#~ msgid ""
+#~ "Wait a little longer. Sometimes delivery of email can be delayed by "
+#~ "processes outside of our control."
+#~ msgstr ""
+#~ "Подождать еще чуть-чуть. Иногда доставка занимает немного дольше времени."
+
+#~ msgid ""
+#~ "Check the junk or spam folder of your email client. Sometime emails wind "
+#~ "up there by mistake."
+#~ msgstr "Проверить папку со спамом. Иногда письма попадают туда по ошибке."
+
+#~ msgid ""
+#~ "Have you entered your email correctly? You have entered %s, if it&#8217;s "
+#~ "incorrect, you will not receive your email."
+#~ msgstr ""
+#~ "Вы ввели свой адрес эл. почты верно? Вы ввели %s. Если это неверный "
+#~ "адрес, то вы не получите письмо."
+
+#~ msgctxt "Multisite active signup type"
+#~ msgid "all"
+#~ msgstr "all"
+
+#~ msgctxt "Multisite active signup type"
+#~ msgid "none"
+#~ msgstr "none"
+
+#~ msgctxt "Multisite active signup type"
+#~ msgid "blog"
+#~ msgstr "blog"
+
+#~ msgctxt "Multisite active signup type"
+#~ msgid "user"
+#~ msgstr "user"
+
+#~ msgid ""
+#~ "Greetings Site Administrator! You are currently allowing &#8220;%s&#8221; "
+#~ "registrations. To change or disable registration go to your <a href=\"%s"
+#~ "\">Options page</a>."
+#~ msgstr ""
+#~ "Приветствуем администратора сайта! В настоящий момент тип регистрации: "
+#~ "%s. Чтобы изменить или выключить регистрацию перейдите на страницу <a "
+#~ "href=\"%s\">настроек</a>."
+
+#~ msgid "Registration has been disabled."
+#~ msgstr "Регистрация отключена."
+
+#~ msgid ""
+#~ "You must first <a href=\"%s\">log in</a>, and then you can create a new "
+#~ "site."
+#~ msgstr ""
+#~ "Необходимо <a href=\"%s\">войти</a> и затем можно создать новый сайт."
+
+#~ msgid "User registration has been disabled."
+#~ msgstr "Регистрация пользователей отключена."
+
+#~ msgid "Site registration has been disabled."
+#~ msgstr "Регистрация сайтов отключена."
+
+#~ msgid "Sorry, new registrations are not allowed at this time."
+#~ msgstr "Извините, регистрация отключена в настоящее время."
+
+#~ msgid "You are logged in already. No need to register again!"
+#~ msgstr "Вы уже авторизованы. Нет необходимости регистрироваться снова!"
+
+#~ msgid ""
+#~ "The site you were looking for, <strong>%s</strong>, does not exist, but "
+#~ "you can create it now!"
+#~ msgstr ""
+#~ "Сайт <strong>%s</strong>, который вы ищете, не существует, но вы можете "
+#~ "создать его прямо сейчас!"
+
+#~ msgid "The site you were looking for, <strong>%s</strong>, does not exist."
+#~ msgstr "Сайт <strong>%s</strong>, который вы ищете, не существует."
+
+#~ msgid "Front page SEO ID"
+#~ msgstr "Front page SEO ID"
+
+#~ msgid "Home page SEO ID"
+#~ msgstr "Home page SEO ID"
+
+#~ msgid "Super SEO Changes"
+#~ msgstr "Super SEO Changes"
+
+#~ msgid "Log In"
+#~ msgstr "Вход"
+
+#~ msgid "Sign Up"
+#~ msgstr "Регистрация"
+
+#~ msgctxt "Buy on iTunes button text"
+#~ msgid "Buy on iTunes"
+#~ msgstr "Купить в iTunes"
+
+#~ msgid "Premieres"
+#~ msgstr "Премьеры"
+
+#~ msgid "Genres"
+#~ msgstr "Жанры"
+
+#~ msgid "Duration"
+#~ msgstr "Длительность"
+
+#~ msgid "mins"
+#~ msgstr "мин."
+
+#~ msgid "."
+#~ msgstr ","
+
+#~ msgid ","
+#~ msgstr "&nbsp;"
+
+#~ msgid "Ratings"
+#~ msgstr "Рейтинги"
+
+#~ msgid "Cast"
+#~ msgstr "В ролях"
+
+#~ msgid "Soundtracks"
+#~ msgstr "Музыка из фильма"
+
+#~ msgid "Single"
+#~ msgstr "Сингл"
+
+#~ msgid "Producers"
+#~ msgstr "Продюсеры"
+
+#~ msgid "Label"
+#~ msgstr "Лейбл"
+
+#~ msgid "%1$d notification"
+#~ msgid_plural "%1$d notifications"
+#~ msgstr[0] "%1$d уведомление"
+#~ msgstr[1] "%1$d уведомления"
+#~ msgstr[2] "%1$d уведомлений"
+
+#~ msgid "My Page"
+#~ msgstr "Моя страница"
+
+#~ msgid "Messages"
+#~ msgstr "Сообщения"
+
+#~ msgid "Friends"
+#~ msgstr "Друзья"
+
+#~ msgid "Groups"
+#~ msgstr "Группы"
+
+#~ msgid "Notifications"
+#~ msgstr "Уведомления"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Log&nbsp;out"
+#~ msgstr "Выход"
+
+#~ msgid "Log out"
+#~ msgstr "Выход"
+
+#~ msgid "(Must be at least 4 characters, letters and numbers only.)"
+#~ msgstr ""
+#~ "(Должно содержать минимум 4 символа, разрешены только латинские буквы и "
+#~ "цифры.)"

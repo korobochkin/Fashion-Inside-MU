@@ -1,4 +1,6 @@
 <?php
+require WPMU_PLUGIN_DIR . '/fashion-inside/themes/selena/jetpack/related-posts.php';
+
 function fashioninside_selena_get_the_home_page_header_h1_text ($header) {
 	return get_option ('blogname');
 }
