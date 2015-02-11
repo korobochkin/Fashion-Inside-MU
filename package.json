@@ -1,6 +1,6 @@
 {
   "name": "Fashion-Inside-MU",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "MU plugins for fashion-inside.by",
   "main": "plugin/load.php",
   "scripts": {
