@@ -8,7 +8,7 @@ function fashion_inside_network_themes_fashion_inside_related_posts ($content) {
 }
 
 function fashion_inside_network_themes_fashion_inside_jetpack_module_loaded_related_posts () {
-	add_filter ('fashion_inside_entire_entry_meta', 'fashion_inside_network_themes_fashion_inside_related_posts', 15);
+	add_filter ('selena_entire_entry_meta', 'fashion_inside_network_themes_fashion_inside_related_posts', 15);
 }
 add_action ('jetpack_module_loaded_related-posts', 'fashion_inside_network_themes_fashion_inside_jetpack_module_loaded_related_posts');
 
