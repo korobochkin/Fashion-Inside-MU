@@ -12,8 +12,8 @@ add_filter ('wpseo_bulk_edit_roles', 'fashioninside_clean_seo_by_yoast');
  * This actions attached via add_action( 'plugins_loaded', 'wpseo_init', 14 );
  * wordpress-seo/wp-seo-main.php:404
  */
-function fashion_inside_remove_wpseo_admin_bar_css () {
+function fashion_inside_remove_wpseo_admin_bar () {
 	remove_action ('admin_bar_menu', 'wpseo_admin_bar_menu', 95);
 	remove_action ('wp_enqueue_scripts', 'wpseo_admin_bar_css');
 }
-add_action ('plugins_loaded', 'fashion_inside_remove_wpseo_admin_bar_css', 20);
+add_action ('plugins_loaded', 'fashion_inside_remove_wpseo_admin_bar', 20);
