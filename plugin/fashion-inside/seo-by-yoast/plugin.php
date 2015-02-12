@@ -5,8 +5,15 @@ function fashioninside_clean_seo_by_yoast ($roles) {
 }
 add_filter ('wpseo_bulk_edit_roles', 'fashioninside_clean_seo_by_yoast');
 
-function fashioninside_jp_admin_bar_seo_cleanup () {
-	global $wp_admin_bar;
-	$wp_admin_bar->remove_menu ('wpseo-menu');
+/*
+ * Remove admin bar stuff and dequeue style for this
+ * wordpress-seo/inc/wpseo-non-ajax-functions.php:538
+ *
+ * This actions attached via add_action( 'plugins_loaded', 'wpseo_init', 14 );
+ * wordpress-seo/wp-seo-main.php:404
+ */
+function fashion_inside_remove_wpseo_admin_bar_css () {
+	remove_action ('admin_bar_menu', 'wpseo_admin_bar_menu', 95);
+	remove_action ('wp_enqueue_scripts', 'wpseo_admin_bar_css');
 }
-add_filter ('wp_before_admin_bar_render', 'fashioninside_jp_admin_bar_seo_cleanup');
+add_action ('plugins_loaded', 'fashion_inside_remove_wpseo_admin_bar_css', 20);
