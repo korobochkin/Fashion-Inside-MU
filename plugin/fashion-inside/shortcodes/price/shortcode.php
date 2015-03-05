@@ -15,7 +15,7 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 		if ($attrs['currency']) {
 			switch ($attrs['currency']) {
 				case "RUB":
-					$currency_sign = _x ('rub', 'The Russian Ruble mark', 'fashion_inside');
+					$currency_sign = _x ('Rub', 'The Russian Ruble mark', 'fashion_inside');
 					break;
 
 				case "USD":
