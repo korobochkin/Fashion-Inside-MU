@@ -23,7 +23,7 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 					$currency_sign = '$';
 					break;
 			}
-			$html .= '<span class="price-currency">' . $currency_sign . '</span>';
+			$html .= ' <span class="price-currency">' . $currency_sign . '</span>';
 		}
 
 		$html = '<span class="price-content">' . $html . '</span>';
