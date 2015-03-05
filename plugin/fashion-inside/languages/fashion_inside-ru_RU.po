@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Fashion Inside MU\n"
-"POT-Creation-Date: 2015-02-11 17:43+0300\n"
-"PO-Revision-Date: 2015-02-11 17:43+0300\n"
+"POT-Creation-Date: 2015-03-06 01:24+0300\n"
+"PO-Revision-Date: 2015-03-06 01:25+0300\n"
 "Last-Translator: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language-Team: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language: ru\n"
@@ -29,6 +29,21 @@ msgstr "Рубрика &laquo;%s&raquo;"
 #, php-format
 msgid "Tag &bdquo;%s&ldquo;"
 msgstr "Тег &laquo;%s&raquo;"
+
+#: ../shortcodes/price/shortcode.php:10
+msgctxt "The separator for the decimal point."
+msgid "."
+msgstr ","
+
+#: ../shortcodes/price/shortcode.php:11
+msgctxt "The thousands separator."
+msgid ","
+msgstr "<span class=\"hs\"></span>"
+
+#: ../shortcodes/price/shortcode.php:18
+msgctxt "The Russian Ruble mark"
+msgid "Rub"
+msgstr "₽"
 
 #: ../themes/selena/jetpack/related-posts.php:16
 msgid "Related posts"
