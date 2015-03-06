@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Fashion Inside MU\n"
-"POT-Creation-Date: 2015-03-06 01:24+0300\n"
-"PO-Revision-Date: 2015-03-06 01:25+0300\n"
+"POT-Creation-Date: 2015-03-06 21:02+0300\n"
+"PO-Revision-Date: 2015-03-06 21:03+0300\n"
 "Last-Translator: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language-Team: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language: ru\n"
@@ -42,12 +42,26 @@ msgstr "<span class=\"hs\"></span>"
 
 #: ../shortcodes/price/shortcode.php:18
 msgctxt "The Russian Ruble mark"
-msgid "Rub"
+msgid "₽"
 msgstr "₽"
+
+#: ../shortcodes/price/shortcode.php:22
+msgctxt "The Russian Ruble mark"
+msgid "Br"
+msgstr "бел. руб."
+
+#: ../shortcodes/price/shortcode.php:27
+msgctxt "The United States dollar mark"
+msgid "$"
+msgstr "$"
 
 #: ../themes/selena/jetpack/related-posts.php:16
 msgid "Related posts"
 msgstr "Похожие посты"
+
+#~ msgctxt "The Russian Ruble mark"
+#~ msgid "Rub"
+#~ msgstr "₽"
 
 #~ msgid ""
 #~ "To activate your user, please click the following link:\n"
