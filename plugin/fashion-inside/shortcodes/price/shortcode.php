@@ -18,6 +18,10 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 					$currency_sign = _x ('Rub', 'The Russian Ruble mark', 'fashion_inside');
 					break;
 
+				case "BYR":
+					$currency_sign = _x ('Br', 'The Russian Ruble mark', 'fashion_inside');
+					break;
+
 				case "USD":
 				default:
 					$currency_sign = '$';
