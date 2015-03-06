@@ -24,7 +24,7 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 
 				case "USD":
 				default:
-					$currency_sign = '$';
+					$currency_sign = _x ('$', 'The United States dollar mark', 'fashion_inside');
 					break;
 			}
 			$html .= ' <span class="price-currency">' . $currency_sign . '</span>';
