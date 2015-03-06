@@ -2,7 +2,16 @@
 function fashion_inside_shortcode_price ($attrs, $content = null) {
 	$html = '';
 
-	if ($attrs['value']) {
+	if (!empty ($attrs['value'])) {
+
+		$attrs = shortcode_atts (
+			array (
+				'value'	   => '',
+				'currency' => 'USD',
+			),
+			$attrs,
+			'price'
+		);
 
 		$html = '<span class="price-value">' . number_format (
 				(float)$attrs['value'],
@@ -11,24 +20,23 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 				_x (',', 'The thousands separator.', 'fashion_inside')
 			) . '</span>';
 
-		// Надо узнать можем ли мы так писать, т к нужной ячейки может не быть
-		if ($attrs['currency']) {
-			switch ($attrs['currency']) {
-				case "RUB":
-					$currency_sign = _x ('₽', 'The Russian Ruble mark', 'fashion_inside');
-					break;
 
-				case "BYR":
-					$currency_sign = _x ('Br', 'The Russian Ruble mark', 'fashion_inside');
-					break;
+		switch ($attrs['currency']) {
+			case "RUB":
+				$currency_sign = _x ('₽', 'The Russian Ruble mark', 'fashion_inside');
+				break;
 
-				case "USD":
-				default:
-					$currency_sign = _x ('$', 'The United States dollar mark', 'fashion_inside');
-					break;
-			}
-			$html .= ' <span class="price-currency">' . $currency_sign . '</span>';
+			case "BYR":
+				$currency_sign = _x ('Br', 'The Russian Ruble mark', 'fashion_inside');
+				break;
+
+			case "USD":
+			default:
+				$currency_sign = _x ('$', 'The United States dollar mark', 'fashion_inside');
+				break;
 		}
+		$html .= ' <span class="price-currency">' . $currency_sign . '</span>';
+
 
 		$html = '<span class="price-content">' . $html . '</span>';
 
