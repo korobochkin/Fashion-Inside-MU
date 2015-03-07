@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Fashion Inside MU\n"
-"POT-Creation-Date: 2015-03-06 21:02+0300\n"
-"PO-Revision-Date: 2015-03-06 21:03+0300\n"
+"POT-Creation-Date: 2015-03-07 17:15+0300\n"
+"PO-Revision-Date: 2015-03-07 17:15+0300\n"
 "Last-Translator: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language-Team: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language: ru\n"
@@ -30,27 +30,32 @@ msgstr "Рубрика &laquo;%s&raquo;"
 msgid "Tag &bdquo;%s&ldquo;"
 msgstr "Тег &laquo;%s&raquo;"
 
-#: ../shortcodes/price/shortcode.php:10
+#: ../shortcodes/price/shortcode.php:19
 msgctxt "The separator for the decimal point."
 msgid "."
 msgstr ","
 
-#: ../shortcodes/price/shortcode.php:11
+#: ../shortcodes/price/shortcode.php:20
 msgctxt "The thousands separator."
 msgid ","
 msgstr "<span class=\"hs\"></span>"
 
-#: ../shortcodes/price/shortcode.php:18
+#: ../shortcodes/price/shortcode.php:26
 msgctxt "The Russian Ruble mark"
 msgid "₽"
 msgstr "₽"
 
-#: ../shortcodes/price/shortcode.php:22
-msgctxt "The Russian Ruble mark"
+#: ../shortcodes/price/shortcode.php:30
+msgctxt "The Belarusian Ruble mark"
 msgid "Br"
 msgstr "бел. руб."
 
-#: ../shortcodes/price/shortcode.php:27
+#: ../shortcodes/price/shortcode.php:34
+msgctxt "The Euro mark"
+msgid "€"
+msgstr "€"
+
+#: ../shortcodes/price/shortcode.php:39
 msgctxt "The United States dollar mark"
 msgid "$"
 msgstr "$"
@@ -58,6 +63,10 @@ msgstr "$"
 #: ../themes/selena/jetpack/related-posts.php:16
 msgid "Related posts"
 msgstr "Похожие посты"
+
+#~ msgctxt "The Russian Ruble mark"
+#~ msgid "Br"
+#~ msgstr "бел. руб."
 
 #~ msgctxt "The Russian Ruble mark"
 #~ msgid "Rub"
