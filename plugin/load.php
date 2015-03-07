@@ -23,6 +23,9 @@ require WPMU_PLUGIN_DIR . '/fashion-inside/filenames/plugin.php';
 // Shortcodes
 require WPMU_PLUGIN_DIR . '/fashion-inside/shortcodes/plugin.php';
 
+// Embeds
+require WPMU_PLUGIN_DIR .'/fashion-inside/oembeds/plugin.php';
+
 // Themes
 // Selena
 require WPMU_PLUGIN_DIR . '/fashion-inside/themes/selena/plugin.php';
