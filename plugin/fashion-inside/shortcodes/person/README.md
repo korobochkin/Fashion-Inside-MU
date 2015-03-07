@@ -3,7 +3,9 @@
 ##Запись
 ```
 [person]
-	[person_portrait src="human-face.jpg" /]
+	[person_portrait]
+		<img src="human-face.jpg" alt="" width="150" height="150">
+	[/person_portrait]
 	[person_about]
 		<h3>Имя и фамилия</h3>
 		<p class="position"></p>
