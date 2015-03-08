@@ -12,10 +12,10 @@ function fashion_inside_shortcode_person ($attrs, $content = null) {
 	);
 
 	if ($attrs['avatar_url']) {
-		$html = '<div class="media-left"><div class="person_portrait"><img src="' . $attrs['avatar_url'] . '" width="150" height="150" class="img-responsive" alt="' . $attrs['name'] . '"></div></div>';
+		$html = '<div class="person_card"><div class="media"><div class="media-left"><div class="person_portrait"><img src="' . $attrs['avatar_url'] . '" width="150" height="150" class="img-responsive" alt="' . $attrs['name'] . '"></div></div>';
 
 
-		$html .= '<div class="media-body"><div class="person_about"><h3>' . $attrs['name'] .'</h3>';
+		$html .= '<div class="media-body media-middle"><div class="person_about"><h3>' . $attrs['name'] .'</h3>';
 
 		if ($attrs['position']) {
 			$html .= '<p class="position">' . $attrs['position'] . '</p>';
@@ -24,7 +24,9 @@ function fashion_inside_shortcode_person ($attrs, $content = null) {
 			$html .= '<p class="description">' . $content . '</p>';
 		}
 
-		$html .= '</div></div>';
+		$html .= '</div></div></div></div>';
+
+
 
 		return $html;
 	}
