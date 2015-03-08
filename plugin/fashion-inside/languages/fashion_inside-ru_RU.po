@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Fashion Inside MU\n"
-"POT-Creation-Date: 2015-03-07 17:15+0300\n"
-"PO-Revision-Date: 2015-03-07 17:15+0300\n"
+"POT-Creation-Date: 2015-03-09 02:35+0300\n"
+"PO-Revision-Date: 2015-03-09 02:35+0300\n"
 "Last-Translator: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language-Team: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language: ru\n"
@@ -29,6 +29,11 @@ msgstr "Рубрика &laquo;%s&raquo;"
 #, php-format
 msgid "Tag &bdquo;%s&ldquo;"
 msgstr "Тег &laquo;%s&raquo;"
+
+#: ../shortcodes/person/shortcode.php:7
+msgctxt "Anonymous person name"
+msgid "Anonymous"
+msgstr "Аноним"
 
 #: ../shortcodes/price/shortcode.php:19
 msgctxt "The separator for the decimal point."
