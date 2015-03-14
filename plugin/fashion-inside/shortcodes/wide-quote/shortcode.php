@@ -8,9 +8,10 @@ function fashion_inside_shortcode_wide_quote ($attrs, $content) {
 			array (
 				'author' => null,
 				'color'  => 'light',
+				'preset'  => '',
 				'bgscheme' => 'color',
 				'ratio'  => 'none',
-				'vertical-align' => 'bottom',
+				'vertical_align' => 'bottom',
 				'background_image' => '',
 				'background_color' => ''
 			),
@@ -28,10 +29,15 @@ function fashion_inside_shortcode_wide_quote ($attrs, $content) {
 
 		// Classes
 		$classes = 'wide-quote';
-		$classes .= ' wide-quote-' . $attrs['color'];
+		if ($attrs['preset']) {
+			$classes .= ' wide-quote-' . $attrs['preset'];
+		}
+		else {
+			$classes .= ' wide-quote-' . $attrs['color'];
+		}
 		$classes .= ' wide-quote-' . $attrs['bgscheme'];
 		$classes .= ' wide-quote-' . $attrs['ratio'];
-		$classes .= ' wide-quote-' . $attrs['vertical-align'];
+		$classes .= ' wide-quote-' . $attrs['vertical_align'];
 		$classes = 'class="' . $classes . '" ';
 
 
