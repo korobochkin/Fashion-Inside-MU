@@ -2,18 +2,16 @@
 function fashion_inside_shortcode_wide_quote ($attrs, $content) {
 	$content = trim ($content);
 	if ($content) {
-		$html = '';
-
 		$attrs = shortcode_atts (
 			array (
-				'author' => null,
-				'color'  => 'dark',
-				'preset'  => null,
-				'bgscheme' => 'color',
-				'ratio'  => null,
-				'vertical_align' => 'bottom',
+				'author'           => null,
+				'preset'           => null,
+				'bgscheme'         => 'color',
+				'color'            => 'dark',
 				'background_image' => null,
-				'background_color' => null
+				'background_color' => null,
+				'ratio'            => null,
+				'vertical_align'   => 'bottom'
 			),
 			$attrs,
 			'wide-quote'
@@ -30,35 +28,47 @@ function fashion_inside_shortcode_wide_quote ($attrs, $content) {
 		$html .= '</div></div></div>';
 
 
-		// Classes
 		$classes = 'wide-quote';
+		$styles = '';
+
+		// Если мы используем готовый набор стилей (фоновый цвет и цвет шрифта)
 		if ($attrs['preset']) {
-			$classes .= ' wide-quote-' . $attrs['preset'];
+			$classes .= ' wide-quote-preset-' . $attrs['preset'];
 		}
+		// Используем собственный фон и цвет шрифта
 		else {
+			// Цвет шрифта
 			$classes .= ' wide-quote-' . $attrs['color'];
-			$classes .= ' wide-quote-' . $attrs['bgscheme'];
+
+			// Фоновый цвет, если он есть
+			if ($attrs['background_color']) {
+				$styles = 'background-color:' . $attrs['background_color'] . ';';
+			}
+
+			/* Фонова картинка, если есть.
+			 * Здесь также должно быть условие
+			 * if ($attrs['bgscheme'] == 'photo' || $attrs['bgscheme'] == 'pattern')
+			 * но мы его не ставим для ускорения работы
+			 * и договариваемся не указывать фоновую картинку, если bgscheme установлено в color.
+			 */
+			if ($attrs['background_image']) {
+				$styles .= 'background-image: url(\'' . $attrs['background_image'] . '\');';
+			}
 		}
-		if ($attrs['ratio']) {
+
+		// Цвет, паттерн или фото?
+		$classes .= ' wide-quote-' . $attrs['bgscheme'];
+
+		// Соотношение сторон и выравнивание
+		if($attrs['ratio']) {
 			$classes .= ' wide-quote-' . $attrs['ratio'];
 			$classes .= ' wide-quote-' . $attrs['vertical_align'];
 		}
+
+		// Оборачиваем свойства в HTML-атрибуты
 		$classes = 'class="' . $classes . '" ';
-
-
-		// Styles Attrs
-		$styles = '';
-		if ($attrs['background_color']) {
-			$styles = 'background-color:' . $attrs['background_color'] . ';';
-		}
-		// Если bgscheme установлена в photo или pattern.
-		if ($attrs['background_image']) {
-			$styles .= 'background-image: url(\'' . $attrs['background_image'] . '\');';
-		}
-		if ($styles) {
-			$styles = 'style="' . $styles . '"';
-		}
-
+		$styles = 'style="' . $styles . '"';
+		// Добавляем полученные атрибуты к HTML-тегу
 		$html = '<blockquote ' . $classes . $styles . '>' . $html . '</blockquote>';
 
 		return $html;

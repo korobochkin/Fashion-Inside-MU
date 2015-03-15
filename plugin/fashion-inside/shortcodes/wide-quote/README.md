@@ -5,7 +5,7 @@
 
 Если указать `bgscheme` равное `photo` или `pattern`, необходимо также задать `color`, `background_image` и `background_color`.
 
-Если установлен `bgscheme="color"` (значение по умолчанию), то необходимо задать фоновый цвет `background_color` и `color`.
+Если установлен `bgscheme="color"` (значение по умолчанию, что значит, что его можно не указывать, если нужно значение `color`), то необходимо задать фоновый цвет `background_color` и `color`.
 ##Запись
 ```
 [wide-quote
