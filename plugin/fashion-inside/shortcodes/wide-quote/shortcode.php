@@ -51,6 +51,7 @@ function fashion_inside_shortcode_wide_quote ($attrs, $content) {
 		if ($attrs['background_color']) {
 			$styles = 'background-color:' . $attrs['background_color'] . ';';
 		}
+		// Если bgscheme установлена в photo или pattern.
 		if ($attrs['background_image']) {
 			$styles .= 'background-image: url(\'' . $attrs['background_image'] . '\');';
 		}
