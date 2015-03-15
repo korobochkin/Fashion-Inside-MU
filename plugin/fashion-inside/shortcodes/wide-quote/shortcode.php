@@ -45,7 +45,8 @@ function fashion_inside_shortcode_wide_quote ($attrs, $content) {
 				$styles = 'background-color:' . $attrs['background_color'] . ';';
 			}
 
-			/* Фонова картинка, если есть.
+			/*
+			 * Фонова картинка, если есть.
 			 * Здесь также должно быть условие
 			 * if ($attrs['bgscheme'] == 'photo' || $attrs['bgscheme'] == 'pattern')
 			 * но мы его не ставим для ускорения работы
