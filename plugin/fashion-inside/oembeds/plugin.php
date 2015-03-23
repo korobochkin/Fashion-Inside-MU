@@ -1,11 +1,11 @@
 <?php
 /*
- * Резиновые iframe повысоте
+ * Резиновые iframe по высоте
  * https://github.com/twbs/bootstrap/blob/master/less/responsive-embed.less
  */
 function fashion_inside_embed_oembed_html_adaptive ($cache, $url, $attr, $post_ID) {
 	if (
-		strpos ($url, 'youtube', 6)
+		strpos ($url, 'youtu', 6)
 		||
 		strpos ($url, 'vimeo', 6)
 	) {
