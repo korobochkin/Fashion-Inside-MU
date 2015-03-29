@@ -22,15 +22,15 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 
 
 		switch ($attrs['currency']) {
-			case "RUB":
+			case 'RUB':
 				$currency_sign = _x ('₽', 'The Russian Ruble mark', 'fashion_inside');
 				break;
 
-			case "BYR":
+			case 'BYR':
 				$currency_sign = _x ('Br', 'The Belarusian Ruble mark', 'fashion_inside');
 				break;
 
-			case "EUR":
+			case 'EUR':
 				$currency_sign = _x ('€', 'The Euro mark', 'fashion_inside');
 				break;
 
@@ -38,7 +38,7 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 				$currency_sign = _x ('£', 'The pound sterling mark', 'fashion_inside');
 				break;
 
-			case "USD":
+			case 'USD':
 			default:
 				$currency_sign = _x ('$', 'The United States dollar mark', 'fashion_inside');
 				break;
