@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Fashion Inside MU\n"
-"POT-Creation-Date: 2015-03-09 02:35+0300\n"
-"PO-Revision-Date: 2015-03-09 02:35+0300\n"
+"POT-Creation-Date: 2015-03-29 16:40+0300\n"
+"PO-Revision-Date: 2015-03-29 16:40+0300\n"
 "Last-Translator: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language-Team: Kolya Korobochkin <me@korobochkin.com>\n"
 "Language: ru\n"
@@ -60,7 +60,12 @@ msgctxt "The Euro mark"
 msgid "€"
 msgstr "€"
 
-#: ../shortcodes/price/shortcode.php:39
+#: ../shortcodes/price/shortcode.php:38
+msgctxt "The pound sterling mark"
+msgid "£"
+msgstr "£"
+
+#: ../shortcodes/price/shortcode.php:43
 msgctxt "The United States dollar mark"
 msgid "$"
 msgstr "$"

@@ -34,6 +34,10 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 				$currency_sign = _x ('€', 'The Euro mark', 'fashion_inside');
 				break;
 
+			case 'GBP':
+				$currency_sign = _x ('£', 'The pound sterling mark', 'fashion_inside');
+				break;
+
 			case "USD":
 			default:
 				$currency_sign = _x ('$', 'The United States dollar mark', 'fashion_inside');
