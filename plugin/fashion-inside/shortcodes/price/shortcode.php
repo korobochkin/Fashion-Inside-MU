@@ -19,8 +19,7 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 				_x ('.', 'The separator for the decimal point.', 'fashion_inside'),
 				_x (',', 'The thousands separator.', 'fashion_inside')
 			) . '</span>';
-
-
+		
 		switch ($attrs['currency']) {
 			case 'RUB':
 				$currency_sign = _x ('₽', 'The Russian Ruble mark', 'fashion_inside');
@@ -48,7 +47,7 @@ function fashion_inside_shortcode_price ($attrs, $content = null) {
 
 		$html = '<span class="price-content">' . $html . '</span>';
 
-		if ($content) {
+		if (!empty ($content)) {
 			$html .= '<span class="price-caption">' . $content .'</span>';
 		}
 
