@@ -42,17 +42,19 @@ function fashion_inside_shortcode_wide_quote ($attrs, $content) {
 
 			// Фоновый цвет, если он есть
 			if (isset($attrs['background_color'])) {
+				// @todo esc_url
 				$styles = 'background-color:' . $attrs['background_color'] . ';';
 			}
 
 			/*
-			 * Фонова картинка, если есть.
+			 * Фоновая картинка, если есть.
 			 * Здесь также должно быть условие
 			 * if ($attrs['bgscheme'] == 'photo' || $attrs['bgscheme'] == 'pattern')
 			 * но мы его не ставим для ускорения работы
 			 * и договариваемся не указывать фоновую картинку, если bgscheme установлено в color.
 			 */
 			if (isset($attrs['background_image'])) {
+				// @todo esc_url
 				$styles .= 'background-image: url(\'' . $attrs['background_image'] . '\');';
 			}
 		}
